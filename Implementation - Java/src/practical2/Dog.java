@@ -17,8 +17,7 @@ public class Dog {
     private String name = "unknown";
     private String dogBreed = "unknown";
     private int regNum = -1;
-    private Set<String> owners = new HashSet<>();
-    private int numberOwners = 0;
+    private final Set<String> owners = new HashSet<>();
     private static int dogCount = 0;
     private int seqNum = 0;
 
@@ -61,6 +60,10 @@ public class Dog {
 
     public Set<String> getOwners() {
         return owners;
+    }
+
+    public int getNumberOwners() {
+        return owners.size();
     }
 
     public void addOwner(String newOwner) {

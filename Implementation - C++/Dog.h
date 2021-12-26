@@ -18,7 +18,7 @@ public:
     /**
      * Creates a dog
      */
-    Dog(std::string name = "unknown", std::string dogBreed = "unknown", int regNum = -1);
+    explicit Dog(std::string name = "unknown", std::string dogBreed = "unknown", int regNum = -1);
 
     /**
      * Getters and Setters

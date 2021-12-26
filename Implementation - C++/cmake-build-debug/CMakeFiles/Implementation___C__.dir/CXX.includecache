@@ -1,0 +1,34 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+E:/Projects/Java_C++_comparison/Implementation - C++/Dog.h
+iostream
+-
+set
+-
+
+E:/Projects/Java_C++_comparison/Implementation - C++/DogBreeder.cpp
+Dog.h
+E:/Projects/Java_C++_comparison/Implementation - C++/Dog.h
+DogRegister.h
+E:/Projects/Java_C++_comparison/Implementation - C++/DogRegister.h
+iostream
+-
+
+E:/Projects/Java_C++_comparison/Implementation - C++/DogCondition.h
+
+E:/Projects/Java_C++_comparison/Implementation - C++/DogRegister.h
+Dog.h
+E:/Projects/Java_C++_comparison/Implementation - C++/Dog.h
+DogCondition.h
+E:/Projects/Java_C++_comparison/Implementation - C++/DogCondition.h
+iostream
+-
+vector
+-
+
